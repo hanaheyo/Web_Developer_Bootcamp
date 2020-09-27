@@ -1,5 +1,6 @@
 body {
   background-color: #232323;
+  margin: 0;
 }
 
 .square {
@@ -17,6 +18,22 @@ body {
 
 h1 {
   color: white;
+  text-align: center;
+  line-height: 1.1;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
 }
 
 #stripe {
@@ -27,5 +44,24 @@ h1 {
 }
 
 .selected {
-  background-color: blue;
+  color: white;
+  background-color: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  outline: none;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 200ms;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
 }
