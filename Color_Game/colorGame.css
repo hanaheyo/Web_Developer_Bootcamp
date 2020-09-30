@@ -9,10 +9,14 @@ body {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 600ms;
+  -webkit-transition: background-color 600ms;
+  -moz-transition: background-color 600ms;
 }
 
 #container {
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 600px;
 }
 
@@ -58,7 +62,9 @@ button {
   color: steelblue;
   letter-spacing: 1px;
   font-size: inherit;
-  transition: all 200ms;
+  transition: all 300ms ease-in;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
 }
 
 button:hover {
